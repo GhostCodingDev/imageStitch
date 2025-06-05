@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 // Begin custom action code
 // DO NOT REMOVE OR MODIFY THE CODE ABOVE!
 
-import 'dart:typed_data';
-import 'package:flutter_flow/flutter_flow_util.dart';
 import 'package:opencv_dart/opencv_dart.dart' as cv;
 
 Future<FFUploadedFile> stitchPanoramaWithDartFFI(
@@ -36,7 +34,7 @@ Future<FFUploadedFile> stitchPanoramaWithDartFFI(
   final FFUploadedFile stitchedFile = FFUploadedFile(
     name: 'panorama_${DateTime.now().millisecondsSinceEpoch}.png',
     bytes: encodedBytes,
-    url: '', // Not uploading anywhere—just local memory
+     // Not uploading anywhere—just local memory
   );
 
   return stitchedFile;

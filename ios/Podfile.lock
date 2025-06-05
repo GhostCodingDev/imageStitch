@@ -1,0 +1,88 @@
+PODS:
+  - DartCvIOS (4.11.0.2):
+    - DartCvIOS/calib3d (= 4.11.0.2)
+    - DartCvIOS/contrib (= 4.11.0.2)
+    - DartCvIOS/core (= 4.11.0.2)
+    - DartCvIOS/features2d (= 4.11.0.2)
+    - DartCvIOS/imgproc (= 4.11.0.2)
+    - DartCvIOS/objdetect (= 4.11.0.2)
+    - DartCvIOS/photo (= 4.11.0.2)
+    - DartCvIOS/stitching (= 4.11.0.2)
+    - DartCvIOS/video (= 4.11.0.2)
+  - DartCvIOS/calib3d (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/contrib (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/core (4.11.0.2)
+  - DartCvIOS/dnn (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/features2d (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/imgproc (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/objdetect (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/photo (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/stitching (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/video (4.11.0.2):
+    - DartCvIOS/core
+  - DartCvIOS/videoio (4.11.0.2):
+    - DartCvIOS/core
+  - Flutter (1.0.0)
+  - opencv_dart (0.0.1):
+    - DartCvIOS (= 4.11.0.2)
+    - DartCvIOS/dnn (= 4.11.0.2)
+    - DartCvIOS/videoio (= 4.11.0.2)
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FlutterMacOS
+  - url_launcher_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - opencv_dart (from `.symlinks/plugins/opencv_dart/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/darwin`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DartCvIOS
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  opencv_dart:
+    :path: ".symlinks/plugins/opencv_dart/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/darwin"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  DartCvIOS: 181aa7d255854f4556b749fd5757d5a8c6a4adbb
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  opencv_dart: 2e1ae1a7b4f2e95eda94e706437e3bbd522363c4
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+  shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
+  sqflite: c35dad70033b8862124f8337cc994a809fcd9fa3
+  url_launcher_ios: 694010445543906933d732453a59da0a173ae33d
+
+PODFILE CHECKSUM: f46ca07e0c7182aa50db44082c8d219d1d4d2096
+
+COCOAPODS: 1.16.2
