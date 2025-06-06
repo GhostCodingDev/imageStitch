@@ -10,7 +10,7 @@ import 'dart:typed_data';
 import 'package:flutter_flow/flutter_flow_util.dart';
 import 'package:opencv_dart/opencv_dart.dart' as cv;
 
-Future<FFUploadedFile> stitchPanoramaWithDartFFI(
+Future<FFUploadedFile> stitchPanorama(
     List<FFUploadedFile> selectedImages) async {
   final List<cv.Mat> mats = [];
   for (final ffFile in selectedImages) {

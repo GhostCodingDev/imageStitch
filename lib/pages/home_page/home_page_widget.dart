@@ -150,8 +150,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     if (_model.selectedItems.length <= 2)
                       FFButtonWidget(
                         onPressed: () async {
-                          _model.stitchedImage =
-                              await actions.stitchPanoramaWithDartFFI(
+                          _model.stitchedImage = await actions.stitchPanorama(
                             _model.selectedItems.toList(),
                           );
 

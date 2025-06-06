@@ -25,7 +25,7 @@ class HomePageModel extends FlutterFlowModel<HomePageWidget> {
 
   ///  State fields for stateful widgets in this page.
 
-  // Stores action output result for [Custom Action - stitchPanoramaWithDartFFI] action in Button widget.
+  // Stores action output result for [Custom Action - stitchPanorama] action in Button widget.
   FFUploadedFile? stitchedImage;
 
   @override
